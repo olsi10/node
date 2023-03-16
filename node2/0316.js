@@ -63,3 +63,62 @@
 // console.log("String %s", 'Hello, world');
 // console.log("JSON %j", {name:'node.js'});
 // console.log("String 1", "String 2");
+
+// function hello1() {
+//     console.log('hello');
+// }
+// hello1();
+
+// const hello2 = () => {
+//     console.log('hello');
+// }
+// hello2();
+
+// let hello3 = (a, b) => {
+//     return console.log(a + b);
+// }
+// hello3(10, 10);
+
+// // 화살표 함수 변경 ------------------------
+
+// let sum = (a, b) => {
+//     return console.log(a + b);
+// }
+// sum(10, 20);
+
+// const human =[
+//     {name:'yo', age:30, score:100},
+//     {name:'bro', age:26, score:85},
+//     {name:'sub', age:22, score:31},
+// ];
+
+// const getScore = (score) => {
+//     if(score >= 90) {
+//         return 'A';
+//     } else if(score >= 80) {
+//         return 'B';
+//     } else if(score >= 70) {
+//         return 'C';
+//     } else {
+//         return 'F';
+//     }
+// }
+
+// human.forEach((human) => { // human 안에 json 객체를 하나하나
+//     const result = `name: ${human.name}\nscore: ${getScore(human.score)}`;
+//     console.log(result);
+// })
+
+// // 함수 선언식
+// function a(me) {
+//     console.log(me)
+// }
+
+// // 함수 표현식
+// const b = function() {
+//     console.log('welcome');
+// }
+
+// // 함수를 선언하고 ()를ㅇ 붙이지 않고 변수에 항ㄹ달하는 해당 변수는 function이 됨
+// const pm = a; // 변수 pm은 함수 a
+
