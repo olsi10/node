@@ -57,3 +57,4 @@
 // stdList.forEach((student) => {
 //     console.log('%s total: %d', student.name, plus(student.math, student.eng));
 // })
+
