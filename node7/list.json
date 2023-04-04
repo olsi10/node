@@ -1,0 +1,17 @@
+[
+    {
+        "name": "hong",
+        "age": 40,
+        "address": "서울시"
+    },
+    {
+        "name": "kim",
+        "age": 80,
+        "address": "경기도"
+    },
+    {
+        "name": "kwang",
+        "age": 20,
+        "address": "경상북도"
+    }
+]
