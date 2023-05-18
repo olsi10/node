@@ -1,0 +1,7 @@
+// 요청경로가 들어오면 실제경로에 있는 파일에 모두 접근할 수 있게 해줘라
+app.use('요청경로', express.static('실제경로'));
+
+pudblic 폴더에 있는 모든 파일을 웹서버에ㅡ ㅣ루트 패스로 접근할 수 있또록 하려면
+app.use('/public', static(path.join(_dirname, 'public')));
+
+서버로 들어온 요청ㅇ과 응답에 대한 정보를 코놋레 이곩해주는 미들웨어 morgan
