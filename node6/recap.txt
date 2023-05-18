@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 writeHead(statusCode {ststusMeesage}, [headers]); // 응답으로 보낼 헤더 만들기
 whire(chunk[,encoding], [callback]) // 응답 본문(body) 데이터를 만듭니다. 여러번 호출될 ㅜㅅ ㅣㅇㅆㄱ습지다.
 end([data], [encoding],[callback]) // 클라이언트로 응답을 전송
@@ -5,4 +6,13 @@ end([data], [encoding],[callback]) // 클라이언트로 응답을 전송
 on 메소드 : 이벤트 처리하는 기본 메소드
 connection, request, close 이벤트를 처리할 수있는 콜백함수를 각각 등ㅇ록하면 상황에 맞게 자동 호출
 
+=======
+writeHead(statusCode {ststusMeesage}, [headers]); // 응답으로 보낼 헤더 만들기
+whire(chunk[,encoding], [callback]) // 응답 본문(body) 데이터를 만듭니다. 여러번 호출될 ㅜㅅ ㅣㅇㅆㄱ습지다.
+end([data], [encoding],[callback]) // 클라이언트로 응답을 전송
+
+on 메소드 : 이벤트 처리하는 기본 메소드
+connection, request, close 이벤트를 처리할 수있는 콜백함수를 각각 등ㅇ록하면 상황에 맞게 자동 호출
+
+>>>>>>> c364415b9b99c3d6c2aac1705c0d6c37bbcbe0c4
 클라이언트가 요청을 하면 발생하는 erquest 이벤트를 처리할 수 있게 등록해 둔 콜백함수에서 res 객체를 사용해서 클라이언트로 응답을 보냄
